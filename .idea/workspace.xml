@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3f6a3df-fba3-437e-a1b3-35f9ef8bc63b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f3f6a3df-fba3-437e-a1b3-35f9ef8bc63b" name="Default Changelist" comment="commit one">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/buga" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/selenium-first-attempt/SeleniumD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/selenium-first-attempt/SeleniumD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-first-attempt/SeleniumA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-first-attempt/SeleniumB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-first-attempt/SeleniumC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/selenium-first-attempt/SeleniumD.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium-first-attempt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-first-attempt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeleniumA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeleniumB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeleniumC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeleniumD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumD.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +27,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SeleniumD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="92">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/buga">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -59,6 +68,8 @@
         <option value="$PROJECT_DIR$/src/SeleniumC.java" />
         <option value="$PROJECT_DIR$/src/SeleniumD.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/buga" />
+        <option value="$PROJECT_DIR$/src/main/java/SeleniumD.java" />
       </list>
     </option>
   </component>
@@ -97,13 +108,7 @@
               <item name="selenium-first-attempt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium-first-attempt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-first-attempt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -123,7 +128,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deposit-solutions" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -150,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SeleniumA">
+  <component name="RunManager" selected="Application.SeleniumD">
     <configuration name="SeleniumA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SeleniumA" />
       <module name="selenium-first-attempt" />
@@ -191,8 +202,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SeleniumA" />
         <item itemvalue="Application.SeleniumD" />
+        <item itemvalue="Application.SeleniumA" />
         <item itemvalue="Application.SeleniumC" />
         <item itemvalue="Application.SeleniumB" />
         <item itemvalue="JUnit.SeleniumOneTest.siteHeaderIsOnHomePage" />
@@ -214,8 +225,23 @@
       <workItem from="1564742354944" duration="10505000" />
       <workItem from="1564756719642" duration="917000" />
       <workItem from="1564757682616" duration="410000" />
-      <workItem from="1564989095215" duration="1102000" />
+      <workItem from="1564989095215" duration="3003000" />
     </task>
+    <task id="LOCAL-00001" summary="commit one">
+      <created>1564990268784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564990268784</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit one">
+      <created>1564990625475</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564990625475</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -227,7 +253,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15872000" />
+    <option name="totallyTimeSpent" value="17773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -268,6 +294,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit one" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit one" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/SeleniumOneTest.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -306,10 +336,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="499" column="24" selection-start-line="499" selection-start-column="24" selection-end-line="499" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buga">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SeleniumD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="92">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
